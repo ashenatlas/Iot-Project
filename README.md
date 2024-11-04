@@ -23,7 +23,11 @@ Here is how to get this code up and running on your system:
 7. Run 'MicroPico > Configure Project' command via Ctrl+Shift+P (or the equivalent on your platform) VS Code command palette.
 8. Download my Python file
 9. Use the components to wire the Pico like this:
-    
-    ![Pico Wiring](IotProjectWiring.jpg)
-
-10. 
+    1. Place the Pico W, potentiomemter and the led on the breadboard.
+    2. Connect the anode (positive leg) of the led to a GPIO pin with a jumper cable (I chose GP2).
+    3. Connect the cathode (negative leg) to a GND pin of the Pico through the resistor.
+    4. Connect the VCC pin of the potentiometer to a power output pin on the Pico W with a jumper cable.
+    5. Connect the GND pin to a GND pin on the Pico with a jumper cable.
+    6. Connect the OUT pin to a GPIO pin with ADC capabilities with a jumper cable (I chose GP28).
+   
+   It should look like this:
