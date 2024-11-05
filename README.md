@@ -1,8 +1,7 @@
 # Introduction
 This is MicroPython code used to brighten or dim an led using a rotary potentiometer on a Pico W. I made this as a response to my school Year 9 Term 4 IT assesment task.
 
-![Led Dimmer](/Images/LedBrightnessControllerDim.jpg)
-![Led Dimmer](/Images/LedBrightnessControllerBright.jpg)
+<img src="/Images/LedBrightnessControllerDim.jpg" alt="Led Dimmer" width="302.4" height="403.2"> <img src="/Images/LedBrightnessControllerBright.jpg" alt="Led Dimmer" width="302.4" height="403.2">
 
 The led's brightness changes when the potentiometer's shaft turns. It is dimmest, or off, when it is or is at 0 degrees, or nearest the GND pin, and brightest when it is at ANGLE_MAX, or nearest the VCC pin.
 
@@ -32,6 +31,6 @@ Here is how to get this code up and running on your system:
    
    It should look like this:
 
-   ![Correct Wiring](/Images/iotprojectwiring.jpg)
+   <img src="/Images/iotprojectwiring.jpg" alt="Correct Wiring" width="151.2" height="201.6">
 
 10. Connect the Pico W to your computer and run the code, the led to should light up right away.
