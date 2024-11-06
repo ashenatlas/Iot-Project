@@ -34,3 +34,7 @@ Here is how to get this code up and running on your system:
    <img src="/Images/iotprojectwiring.jpg" alt="Correct Wiring" width="151.2" height="201.6">
 
 10. Connect the Pico W to your computer and run the code, the led to should light up right away.
+
+# Usage
+
+This code can not only be used for an led, it can be used for changing volume or pitch of a connected buzzer, or anything that uses an int variable to change things.
